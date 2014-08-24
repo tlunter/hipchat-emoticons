@@ -7,6 +7,7 @@
     "url": "git@github.com:tlunter/hipchat-emoticons.git"
   },
   "dependencies": {
+    "deasync": "0.0.7",
     "express": "~4.8.5",
     "grunt": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",
