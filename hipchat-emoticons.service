@@ -1,0 +1,15 @@
+[Unit]
+Description=Node ExpressJS
+After=syslog.target
+
+[Service]
+User=tlunter
+WorkingDirectory=/opt/tlunter/hipchat-emoticons
+Environment=HIPCHAT_TOKEN=
+ExecStart=/bin/bash -lc "node app.js"
+Restart=always
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
