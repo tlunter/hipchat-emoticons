@@ -1,0 +1,10 @@
+{
+  "author": "Todd Lunter",
+  "name": "hipchat-emoticons",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": ">= 0",
+    "reqwest": ">= 0",
+    "pure": "~0.4.0"
+  }
+}

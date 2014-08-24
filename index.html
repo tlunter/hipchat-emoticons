@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Hipchat Emoticons</title>
+    <link rel="stylesheet" href="/css/pure.css" />
+    <link rel="stylesheet" href="/css/hipchat-emoticons.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="emoticons">
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/react.js"></script>
+    <script type="text/javascript" src="/js/reqwest.js"></script>
+    <script type="text/javascript" src="/js/hipchat-emoticons.js"></script>
+    <script type="text/javascript">
+      var contentNode = document.querySelector("#emoticons");
+      
+      React.renderComponent(Emoticons(), contentNode);
+    </script>
+  </body>
+</html>
