@@ -15,7 +15,7 @@ var reloadEmoticons = function() {
   while (true) {
     var newEmoticons = null; 
     client.emoticons({ 'start-index': startIndex }, function (err, _e) {
-      newEmoticons = _e;
+      newEmoticons = _e || [];
       console.log("Found: " + newEmoticons.length);
       console.log("" + newEmoticons[0].shortcut);
     });
